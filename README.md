@@ -63,6 +63,11 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+    - First hit the endpoint using Postman and found the Namerror
+    - Didn't see the cause of the error immediately hence tried some error handling
+    - Did some research online and stack overflow
+    - Finally found that is was a typo on the classname
+    - Hit the endpoint again to make sure that the resource is created correctly
 
 - Update the number of likes for a toy
 
