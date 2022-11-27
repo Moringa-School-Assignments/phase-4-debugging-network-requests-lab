@@ -72,7 +72,10 @@ developing your own process.
 - Update the number of likes for a toy
 
   - How I debugged:
+    - Made sure that the data is validated before sending to db
+    - rendered json after update
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+    - Added a delete resource in the routes
